@@ -66,6 +66,10 @@ This is the main improvement. I used a sine wave table with 180 samples. If the 
 
 I moved the button to PB0. It uses a falling edge trigger with an internal pull-up. When pressed, it flips the `is_paused` variable. When paused, the servos stay still and the audio is forced off for safety.
 
+### 4. UART (USART2)
+
+Used for serial communication with the PC. This allows me to send telemetry data like Roll and Pitch angles to the serial monitor for debugging.
+
 ## Debugging and Testing
 
 * **Serial Monitor**: I used `printf` to show Roll and Pitch degrees on the screen. I added a counter to only print every few loops so the text doesn't fly past too fast to read.
