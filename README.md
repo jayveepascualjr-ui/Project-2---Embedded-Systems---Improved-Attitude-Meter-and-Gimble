@@ -6,6 +6,8 @@
 //Subject: Embedded Systems - EENG1030
 //Last Edited: 08/05/26
 
+## Youtube video Link - https://youtu.be/FvmBTaBRWrI
+
 ## Overview
 
 This project is an **improved version** of my first project. While the first one only handled one side, this one is a **2-axis gimbal system** that tracks both **Roll and Pitch**. I also added a safety alarm using the **SAI (Serial Audio Interface)** which makes a beeping sound if the gimbal tilts too far.
